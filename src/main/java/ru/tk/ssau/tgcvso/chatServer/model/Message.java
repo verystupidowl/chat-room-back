@@ -9,9 +9,8 @@ import lombok.*;
 @ToString
 public class Message {
 
-    private String from;
-    private String to;
+    private String senderName;
+    private String receiverName;
     private String content;
-    private String date;
     private Status status;
 }
