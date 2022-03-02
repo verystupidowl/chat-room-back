@@ -8,9 +8,8 @@ import lombok.*;
 @AllArgsConstructor
 @ToString
 public class Message {
-
     private String senderName;
     private String receiverName;
-    private String content;
+    private String message;
     private Status status;
 }
